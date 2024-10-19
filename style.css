@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav1{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 5px;
+    background: #24242a;
+}
+
+.nav1 img{
+    max-width: 200px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition:all 0.3s ease 0s;
+}
+.nav1 a:hover{
+    color: #505050;
+}
+.nav1 i{
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+.nav1 i:hover{
+    color: #505050;
+}
+
+.home{
+    padding: 200px;
+    background-image: url(./img/home1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding-top: 15rem;
+}
+
+.content h1{
+    font-size: 50px;
+color: white;
+font-weight: 700;
+}
+.content p{
+    color: white;
+    font-weight: 500;
+}
+.btn1{
+    transition: all 0.3s ease 0s;
+    border: none;
+    background: white;
+    width: 20%;
+    padding: 8px;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background: #dddd;
+    border: none;
+    transform: scale(0.98);
+}
+.amanj{
+    padding: 0 30px;
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.amanj img{
+max-width: 500px;
+border-radius: 5px;
+}
+
+.amanj
+.amanj1
+.amanj2 h1{
+    font-size: 50px;
+    margin-left: 5rem;
+    font-weight: 700;
+}
+
+.div12 h1{
+margin-top: 5rem;
+font-weight: 700;
+margin-left: 3rem;
+}
+
+.div12 p{
+margin-left: 3rem;
+text-align: start;
+font-weight: 500;
+}
+
+.abbas{
+    margin-top: 2rem;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.abbas .abbas1 .abbas2 h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-bottom: 10px;
+}
+
+.abbas .abbas1 .abbas2 p{
+    font-weight: 500;
+}
+.a1{
+    text-align: center;
+    color: #23242a;
+    margin-top: 6rem;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.div13{
+    margin-top: 5rem;
+    font-weight: 700;
+    margin-left: 45rem;
+}
+.div13 h1{
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.div13 p{
+    text-align: center;
+    font-weight: 500;
+}
+
+.amanj0{
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amanj0 .amanj01 .amanj02 h1{
+    margin-left: 9rem;
+    font-weight: 700;
+    font-size: 50px;
+}
+.amanj0 .amanj01 .amanj02 p{
+ margin-left: 2rem;
+ margin-bottom:10px;
+ font-weight: 500;
+}
+
+h3{
+text-align: center;
+font-weight: 600;
+}
+.img1{
+    margin-top: 3rem;
+    max-width: 350px;
+    padding: 0 20px;
+    margin-left: 3rem;
+    transition: all 0.3s ease 0s;
+}
+
+.img1:hover{
+    transform: scale(0.95);
+}
+
+.card{
+    margin-bottom: 5rem;
+    margin-left: 4rem;
+    transition: all 0.3s ease 0s;
+}
+.card:hover{
+    transform: scale(0.95);
+    border: 1px solid black;
+}
+
+.card-body button{
+    border: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: white;
+    width: 10rem;
+    padding: 10px;
+    margin-left: 2rem;
+    transition: all 0.3s ease 0s;
+}
+.card-body button:hover{
+    color:white;
+    background: black;
+    transform: scale(0.95)
+}
+
+.div02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div02 img{
+    margin-left: 2rem;
+    max-width: 200px;
+}
+
+.div02 p{
+    margin-left: 10px;
+}
+
+.div002{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.div002 img{
+    max-width: 200px;
+    margin-right: 2rem;
+}
+
+.div002 p{
+    margin-left: 5rem;
+}
+
+footer{
+    color: white;
+    border-radius: 24px 24px 0 0;
+    padding: 30px;
+    margin-top: 5rem;
+    background: #23242a;
+}
+
+footer a{
+    margin-left: 3.6rem;
+    text-decoration: none;
+    color: #505050;
+    transition: all 0.3s ease 0s;
+}
+footer a:hover{
+    color: white;
+}
+
+footer img{
+    max-width: 200px;
+}
+
+
